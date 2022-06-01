@@ -39,3 +39,6 @@ with open ( "samples.csv", "w", newline ="",encoding = 'utf8' ) as f:
     write.writerow(columns_name)
     write.writerows(review_data)
 
+
+for i in range(len(review_data)):
+  print(review_data[i])
